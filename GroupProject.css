@@ -1,0 +1,94 @@
+/* List formatting */
+article
+{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+}
+
+body
+{
+    background-color: rgb(206, 182, 77);
+    margin: 0px 0px 0px 0px;
+}
+
+/* grid formatting */
+header
+{
+    grid-area: header;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid black; 
+    margin: 5px 5px 5px 5px;       
+    padding: 2px 2px 2px 2px;
+}
+
+
+nav
+{
+    grid-area: sidebar;
+    border: 1px solid black; 
+    margin: 5px 5px 5px 5px;       
+    padding: 2px 2px 2px 2px;
+}
+
+main
+{
+    grid-area: content;
+    text-align: center;
+    border: 1px solid black; 
+    margin: 5px 5px 5px 5px;       
+    padding: 2px 2px 2px 2px;
+    
+}
+
+footer
+{
+    grid-area: footer;
+    text-align: center;
+    border: 1px solid black; 
+    margin: 5px 5px 5px 5px;       
+    padding: 2px 2px 2px 2px;
+}
+
+.page-container
+{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas:
+          "header    header"
+          "sidebar   content"
+          "footer    footer";
+}
+/* Column formatting*/
+.row
+{
+    display: flex;
+}
+.column
+{
+    flex: 50%;
+}
+/* Home page formatting*/
+.home-header
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-article 
+{
+    background-color: rgb(202, 113, 113);
+}
+.home
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*About page formatting*/
+
+
+/*Contact page formatting*/
+
+
+/*Map page formatting*/
+
+
+/*Menu page formatting*/
