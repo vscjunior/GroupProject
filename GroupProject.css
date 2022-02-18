@@ -69,20 +69,33 @@ footer
 {
     flex: 50%;
 }
+/*Formatting for uneven columns*/
+.column-left
+{
+    float: left;
+}
+.left, .right 
+{
+    width: 25%;
+}
+.middle {
+    width: 50%;
+}
 /* Home page formatting*/
 .home-header
 {
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 .home-article 
 {
-    background-color: rgb(202, 113, 113);
+    background-color: rgb(200, 110, 100);
 }
 .home
 {
     font-family: 'Times New Roman', Times, serif;
 }
-/*About page formatting*test/
+/*About page formatting*/
 
 
 /*Contact page formatting*/
@@ -92,3 +105,18 @@ footer
 
 
 /*Menu page formatting*/
+.menu-header
+{
+    font-family: cursive;
+    color: red;
+}
+.menu-page-item
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.menu-article
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px
+}
