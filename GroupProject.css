@@ -96,7 +96,10 @@ footer
     font-family: 'Times New Roman', Times, serif;
 }
 /*About page formatting*/
-
+.abouth2
+{
+    font-size: large;
+}
 
 /*Contact page formatting*/
 
