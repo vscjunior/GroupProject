@@ -102,6 +102,19 @@ footer
 }
 
 /*Contact page formatting*/
+.c-main
+{
+    background-color: white;
+    font-size: large;
+}
+.c-h2
+{
+    font-size: medium;
+}
+.c-div
+{
+    font-size: large;
+}
 
 
 /*Map page formatting*/
